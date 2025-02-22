@@ -1,0 +1,144 @@
+* {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    
+
+}
+nav{
+    position: sticky;
+    top: 0%;
+}
+.line{
+    height: 1px;
+    color: black;
+    background-color: black;
+    width: 100vw;
+}
+
+.navbar {
+    display: flex;
+    height: 13vh;
+    width: 100vw;
+    justify-content: space-around;
+    background-color:rgba(245,245,220,0.3);
+    
+    
+   
+}
+
+.logo {
+    font-family: gt-super, Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size: 30px;
+    font-weight: bolder;
+    align-content: center;
+    justify-content: center;
+    letter-spacing: -0.055em;
+    padding-right: 40px;
+    cursor: pointer;
+
+
+
+}
+
+.login {
+    font-family: gt-super, Georgia, Cambria, "Times New Roman", Times, serif;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-items: center;
+    cursor: pointer;
+    
+
+}
+
+.img {
+    height: 90vh;
+    width: 60vh;
+    position: relative;
+    z-index: -1;
+
+
+}
+
+.btn {
+    color: white;
+    height: 40px;
+    width: 110px;
+    border-radius: 24px;
+    background-color: rgb(15, 14, 14);
+    cursor: pointer;
+
+}
+main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.body {
+    display: flex;
+    height: 75vh;
+    width: 99vw;
+    justify-content: space-between;
+    background-color:rgba(245,245,220,0.3);
+}
+
+.rightcontent {
+     align-content: center;
+    justify-items: center;
+    margin-left: 40px;
+    position: relative;
+    z-index: 10;
+
+}
+
+.heading {
+    font-family: gt-super, Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size: 120px;
+    letter-spacing: -0.055em;
+    color: #242424;
+    font-weight: 100;
+    margin-left: 20px;
+}
+
+.heading2 {
+    font-family: gt-super, Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size: 22px;
+    counter-reset: #242424;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+
+.btn2 {
+    font-family: gt-super, Georgia, Cambria, "Times New Roman", Times, serif;
+    height: 7vh;
+    width: 15vw;
+    border-radius: 24px;
+    background-color: black;
+    color: white;
+    font-size: 22px;
+    margin-top: 40px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.footer {
+    height: 60px;
+    width: 100vw;
+    background-color:rgba(245,245,220,0.3);
+}
+
+.end {
+    font-family: gt-super, Georgia, Cambria, "Times New Roman", Times, serif;
+    height: 40px;
+    width: 100vw;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
